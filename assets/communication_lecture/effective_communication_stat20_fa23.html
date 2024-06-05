@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Effective Communication</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="notes_files/libs/clipboard/clipboard.min.js"></script>
+<script src="notes_files/libs/quarto-html/quarto.js"></script>
+<script src="notes_files/libs/quarto-html/popper.min.js"></script>
+<script src="notes_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="notes_files/libs/quarto-html/anchor.min.js"></script>
+<link href="notes_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="notes_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="notes_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="notes_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="notes_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#communication-in-context" id="toc-communication-in-context" class="nav-link active" data-scroll-target="#communication-in-context">Communication in context</a></li>
+  <li><a href="#four-priniciples-for-effective-communication" id="toc-four-priniciples-for-effective-communication" class="nav-link" data-scroll-target="#four-priniciples-for-effective-communication">Four priniciples for effective communication</a>
+  <ul class="collapse">
+  <li><a href="#adapt-to-your-audience" id="toc-adapt-to-your-audience" class="nav-link" data-scroll-target="#adapt-to-your-audience">1. Adapt to your audience</a></li>
+  <li><a href="#maximize-the-signal-to-noise-ratio" id="toc-maximize-the-signal-to-noise-ratio" class="nav-link" data-scroll-target="#maximize-the-signal-to-noise-ratio">2. Maximize the signal-to-noise ratio</a></li>
+  <li><a href="#use-effective-redundancy" id="toc-use-effective-redundancy" class="nav-link" data-scroll-target="#use-effective-redundancy">3. Use effective redundancy</a></li>
+  <li><a href="#trade-offs" id="toc-trade-offs" class="nav-link" data-scroll-target="#trade-offs">4. Trade-offs</a></li>
+  </ul></li>
+  <li><a href="#communication-strategies" id="toc-communication-strategies" class="nav-link" data-scroll-target="#communication-strategies">Communication strategies</a>
+  <ul class="collapse">
+  <li><a href="#revise-revise-revise" id="toc-revise-revise-revise" class="nav-link" data-scroll-target="#revise-revise-revise">Revise, revise, revise</a></li>
+  <li><a href="#state-the-message-first-and-explicitly-then-state-the-details" id="toc-state-the-message-first-and-explicitly-then-state-the-details" class="nav-link" data-scroll-target="#state-the-message-first-and-explicitly-then-state-the-details">State the message first and explicitly, <em>then</em> state the details</a></li>
+  <li><a href="#hierarchical-is-better-than-sequential" id="toc-hierarchical-is-better-than-sequential" class="nav-link" data-scroll-target="#hierarchical-is-better-than-sequential">Hierarchical is better than sequential</a></li>
+  <li><a href="#make-the-structure-easy-to-navigate-and-understand" id="toc-make-the-structure-easy-to-navigate-and-understand" class="nav-link" data-scroll-target="#make-the-structure-easy-to-navigate-and-understand">Make the structure easy to navigate and understand</a></li>
+  <li><a href="#communicate-at-multiple-levels" id="toc-communicate-at-multiple-levels" class="nav-link" data-scroll-target="#communicate-at-multiple-levels">Communicate at multiple levels</a></li>
+  </ul></li>
+  <li><a href="#visualizations" id="toc-visualizations" class="nav-link" data-scroll-target="#visualizations">Visualizations</a>
+  <ul class="collapse">
+  <li><a href="#exploratory-plot-speed-and-details" id="toc-exploratory-plot-speed-and-details" class="nav-link" data-scroll-target="#exploratory-plot-speed-and-details">Exploratory plot: speed and details</a></li>
+  <li><a href="#communicatory-plot-message-and-quality" id="toc-communicatory-plot-message-and-quality" class="nav-link" data-scroll-target="#communicatory-plot-message-and-quality">Communicatory plot: message and quality</a></li>
+  </ul></li>
+  <li><a href="#programming" id="toc-programming" class="nav-link" data-scroll-target="#programming">Programming</a>
+  <ul class="collapse">
+  <li><a href="#coding" id="toc-coding" class="nav-link" data-scroll-target="#coding">Coding</a></li>
+  <li><a href="#project-organization" id="toc-project-organization" class="nav-link" data-scroll-target="#project-organization">Project organization</a></li>
+  <li><a href="#asking-for-help" id="toc-asking-for-help" class="nav-link" data-scroll-target="#asking-for-help">Asking for help</a></li>
+  </ul></li>
+  <li><a href="#making-a-pitch-communicate-a-clear-vision-why-someone-should-invest-in-you" id="toc-making-a-pitch-communicate-a-clear-vision-why-someone-should-invest-in-you" class="nav-link" data-scroll-target="#making-a-pitch-communicate-a-clear-vision-why-someone-should-invest-in-you">Making a pitch? Communicate a clear vision why someone should invest in you</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Effective Communication</h1>
+<p class="subtitle lead">Principles and strategies to write, speak, make figures, and program better</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<!-- [[Discuss]{.btn .btn-primary}](https://edstem.org) [[Reading Questions]{.btn .btn-primary}](https://www.gradescope.com/courses/2446905) [[PDF]{.btn .btn-primary}](notes.pdf) -->
+<p><br>
+</p>
+<p><em>These notes are from the Fall 2023 iteration of <a href="https://www.stat20.org/">Stat20</a> at UC Berkeley</em>.</p>
+<p>At this point in the course we’ve learned a few statistical analysis methods including descriptive statistics, predictive models, and hypothesis testing.</p>
+<p>When we analyze data we (usually) analyze it for a purpose such as drawing a scientific conclusion or helping an organization make a decision. For the results of our data analysis to have an impact, we have to communicate them to someone else.</p>
+<p>Communicating well is difficult. It’s a skill that requires analytical reasoning, design, engineering, and empathy. Most importantly, effective communication requires intentionality, effort, and practice. Simply asking the question “what can I do to communicate this better” goes a long way.</p>
+<p>These notes provide principles and strategies to follow to help you communicate more effectively. These ideas are useful across the board from programming to writing publications to making presentations to asking a colleague for help.</p>
+<section id="communication-in-context" class="level2">
+<h2 class="anchored" data-anchor-id="communication-in-context">Communication in context</h2>
+<blockquote class="blockquote">
+<p>Effective communication is optimization under constraints.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</blockquote>
+<p>What makes for effective communication is context dependent; the context determines the constraints. The context may depends upon:</p>
+<ul>
+<li>Audience (business executives, data scientists, etc)</li>
+<li>Medium (slide show, text document, etc)</li>
+<li>Purpose (convey results, impress an employer, etc)</li>
+<li>Content (we built a predictive model, drug A doesn’t work, etc)</li>
+<li>Time (do you have a day or a week to prepare?)</li>
+</ul>
+<p>In data science we communicate through a variety of mediums:</p>
+<ul>
+<li>Code</li>
+<li>Written document</li>
+<li>Static visualizations</li>
+<li>Dynamic visualizations</li>
+<li>Interactive application<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+<li>Slideshow</li>
+<li>Web page</li>
+<li>Speaking</li>
+<li>Literate programming (e.g.&nbsp;Quarto document)</li>
+</ul>
+</section>
+<section id="four-priniciples-for-effective-communication" class="level2">
+<h2 class="anchored" data-anchor-id="four-priniciples-for-effective-communication">Four priniciples for effective communication</h2>
+<ol type="1">
+<li>Adapt to your audience</li>
+<li>Maximize the signal-to-noise ratio</li>
+<li>Use effective redundancy</li>
+<li>There are usually trade-offs</li>
+</ol>
+<p>The first three of these principles come from <em>Trees, Maps and Theorems</em><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> and are inspired by information theory.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<section id="adapt-to-your-audience" class="level3">
+<h3 class="anchored" data-anchor-id="adapt-to-your-audience">1. Adapt to your audience</h3>
+<p>Adapting to the audience means you take responsibility for the success or failure of your message reaching the audience. It comes naturally to us; you talk to your parents differently from how you talk to your best friend. The act of adapting requires empathy; you have to understand how the recipient perceives the information you are conveying. Adapting also requires some persistence; if the first strategy does not succeed then try another one.</p>
+<p>Adapting is partially an act of generosity. How many hours of your life have been wasted sitting through a lecture that you didn’t get much out of? Communicating well is also self-serving; it will make your work more impact and advance your career faster.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<p>Understanding who is in the audience is a critical step. Some common types of audience members you may face include:</p>
+<ul>
+<li>Familiar or unfamiliar with the topic</li>
+<li>Technical or non-technical</li>
+<li>Expert in the topic at hand or in a similar but distinct topic</li>
+<li>Native or non-native language speakers</li>
+<li>Interested or uninterested in the topic</li>
+</ul>
+<p>Many audiences are heterogeneous, which presents an extra challenge.</p>
+<p>It’s helpful to keep in mind limitations of your audience. You are probably much more familiar with the background/context of your work than your audience is. Many people in your audience will only skim or pay half attention to what you are saying. Structuring your communication with these constraints in mind will go a long way.</p>
+</section>
+<section id="maximize-the-signal-to-noise-ratio" class="level3">
+<h3 class="anchored" data-anchor-id="maximize-the-signal-to-noise-ratio">2. Maximize the signal-to-noise ratio</h3>
+<!-- We want to focus on communicating the important/interesting  -->
+<p>Focus on the important parts of what you’re saying (the signal) and minimize the unimportant details (the noise).</p>
+<blockquote class="blockquote">
+<p>Nothing is neutral in communication.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+</blockquote>
+<p>The audience sees every dot in a graphic and hears every word you speak. Anything that does not convey your message to the audience can hamper your message. Often message optimization is more about minimizing noise than maximizing signal.</p>
+<p>For visualization, simple and focused is often better than fancy and detailed. For example watch the progression of a poor graphic to an effective graphic in <a href="http://www.storytellingwithdata.com/blog/2017/3/29/declutter-this-graph">this blog post</a>.</p>
+<p>It’s helpful to make documents/presentations/webpages consistent and minimal. For example, make all formatting (font, text size, structure, webpage style, graph colors, etc) uniform throughout. Changes in formatting will draw the audience’s attention so use it selectively. Similarly, bolding and emphasis words (very, really, etc) should be also be used selectively. <!-- [this article](http://www.dataschool.io/reproducibility-is-not-just-for-researchers/) --></p>
+<!-- Optimizing a message's delivery first requires a clear understanding of exactly what the message is. -->
+<!-- Figuring out your thesis is not always easy; it sometimes takes several rounds of revision to home in on and understand your thesis. -->
+</section>
+<section id="use-effective-redundancy" class="level3">
+<h3 class="anchored" data-anchor-id="use-effective-redundancy">3. Use effective redundancy</h3>
+<p>If you convey your message in multiple ways the audience has more than one chance to understand the message. For example, stop sign conveys its message in three ways: color, text and shape.</p>
+<!-- ![http://www.huffingtonpost.com/mitch-ditkoff/the-curious-origins-of-th_b_9720358.html](http://images.huffingtonpost.com/2016-04-18-1460992862-2887201-iStock_000022162723_Small.jpg) -->
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/stop_sign.jpg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p><br>
+</p>
+<p>Redundancy can also mean repetition. For example, for oral presentations:</p>
+<blockquote class="blockquote">
+<p>Tell them what you are going to tell them. Tell them. Then tell them what you told them.</p>
+</blockquote>
+<p>Stating the main points both at the beginning and end will reinforce your message to the audience.</p>
+</section>
+<section id="trade-offs" class="level3">
+<h3 class="anchored" data-anchor-id="trade-offs">4. Trade-offs</h3>
+<p>You may have come across the famous quote in an Economics class:</p>
+<blockquote class="blockquote">
+<p>There ain’t no such thing as a free lunch.</p>
+</blockquote>
+<p>There are usually trade-offs to decisions.</p>
+<p>In the context of communication the biggest “cost” can be time spent preparing; it takes time to communicate well. Tweaking a single graphic can take hours. Your goal is not perfection; your goal is “good enough” for the purpose at hand.</p>
+<p>“Good enough” is context dependent. An email to your friend might get a quick glace over while an email to a potential employer likely takes multiple rounds of revision.</p>
+<p>Other trade-offs might include:</p>
+<ul>
+<li>Provide more detail vs.&nbsp;make the content easier to understand</li>
+<li>Targeting one audience vs.&nbsp;another audience</li>
+</ul>
+</section>
+</section>
+<section id="communication-strategies" class="level2">
+<h2 class="anchored" data-anchor-id="communication-strategies">Communication strategies</h2>
+<p>This section discusses a number of strategies for effective communication.</p>
+<section id="revise-revise-revise" class="level3">
+<h3 class="anchored" data-anchor-id="revise-revise-revise">Revise, revise, revise</h3>
+<p>Do many rounds of revision. This applies to coding, writing, oral presentations and making visualizations. Revision is one of the best ways to improve something. Stepping away then coming back will give your a fresh perspective. It will also help you catch errors.</p>
+<p>You should constructively attack any work you are editing (both your own or someone else’s).</p>
+<blockquote class="blockquote">
+<p>When editing go for the jugular.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+</blockquote>
+<p>When giving someone else feedback on their work it is important to be constructive, respectful, and empathetic.</p>
+<p>If you are publishing something publicly you should want revise it several times. If it’s something that really matters then you ideally want to outside feedback from several people.</p>
+<!-- Revision is also about iteration.  -->
+<!-- For example, one of the principles of Agile software development is:  -->
+<!-- > Make it work. Make it right. Make it fast. -->
+<!-- Complex engineering (and communication!) problems are typically solved iteratively.  -->
+</section>
+<section id="state-the-message-first-and-explicitly-then-state-the-details" class="level3">
+<h3 class="anchored" data-anchor-id="state-the-message-first-and-explicitly-then-state-the-details">State the message first and explicitly, <em>then</em> state the details</h3>
+<p>It’s often a good idea to state the message <em>before</em> the details of the argument in a presentation/written document. The message tends to be more important than the details, and the structure of the document tends to reflect this imbalance. The audience may not appreciate the message without motivation so providing context should come before the message.</p>
+<p>Many professional communications are structured as:</p>
+<ol type="1">
+<li>Motivation (what is the problem and why should the audience care?)</li>
+<li>The main message (how did you solve the problem?)</li>
+<li>The details supporting the main results</li>
+</ol>
+<p>When designing a graphic, presentation or document you should have a focus on conveying the message – the “so what?”</p>
+<blockquote class="blockquote">
+<p>Too often, when we communicate with data, we don’t make our point clear. We leave our audience guessing. <strong>Your audience should never have to guess what message you want them to know.</strong> The onus is on the person communicating the information (you!) to make that clear.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+</blockquote>
+<p>State the upshot of your presentation explicitly and at the beginning. It is tempting to save the conclusions until after presenting the details of the analysis or to assume the audience will just understand the point without you explicitly stating it. While these strategies may be effective for writing a novel, they are not effective for technical communication.</p>
+<!-- Mathematics is communicated this way. Mathematical results are typically presented *theorem-proof* style meaning they state the theorem first then prove the theorem (opposed to first prove the result then state the result that was just proved).  -->
+<p>The rule of <em>message before details</em> applies both at a macro-scale (e.g.&nbsp;executive summary) and at a micro-scale (e.g.&nbsp;plot titles). Some concrete recommendations include:</p>
+<ul>
+<li>Include an executive summary/abstract at the beginning of the document.</li>
+<li>State the upshot of the graphic in the title (e.g.&nbsp;see <a href="http://www.storytellingwithdata.com/blog/2017/3/22/so-what">this post</a>).</li>
+<li>Similarly for a PowerPoint, state the upshot in the title of a slide.</li>
+<li>Functions should have informative names (e.g.&nbsp;<code>str_extract</code> (good) vs <code>grep</code> (bad)).</li>
+<li>When communicating a complex concept (e.g.&nbsp;a theorem) state the intuition before formally defining the concept.</li>
+</ul>
+<p>Focusing on the message first requires that you understand the message.</p>
+<blockquote class="blockquote">
+<p>How can I know what I think till I see what I say?<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p>
+</blockquote>
+<p>You sometimes have to write for a while until you understand what the thesis is.</p>
+</section>
+<section id="hierarchical-is-better-than-sequential" class="level3">
+<h3 class="anchored" data-anchor-id="hierarchical-is-better-than-sequential">Hierarchical is better than sequential</h3>
+<!-- ![Hierarchical](images/hierarchical.png){fig-align=center width="400"} -->
+<!-- ![Flat/sequential](images/flat.png){fig-align=center width="400"} -->
+<p>Humans tend to process hierarchical information better than sequential information.</p>
+<div class="quarto-layout-panel" data-fig-align="center" data-fig-width="500">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/flat.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Flat/sequential organization</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Hierarchical.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Hierarchical organization</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Textbooks are organized into: chapters, sections, subsections, paragraphs, sentences etc. Imagine if a textbook were just a straight wall of text! We categorize living creatures into a hierarchical taxonomy (kingdom, phylum, …). Items in grocery stores are group together in aisles/sections and the aisles are roughly arranged to be similar (e.g.&nbsp;the fruit section is near the vegetable section). The <a href="https://www.stat20.org/schedule.html">topics in stat20</a> are grouped together into units (e.g.&nbsp;questions, prediction, generalization). The <a href="https://www.stat20.org/1-questions-and-data/02-taxonomy-of-data/notes.html#a-taxonomy-of-data">taxonomy of data</a> gives a hierarchical organization of data types. <!-- A complex function is composed of many helper functions.  --></p>
+<!-- For a more concrete example, compare: -->
+<!-- > *My research has both theoretical and applied components: dimensionality reduction for network valued random variables, temporally evolving preferential attachment models, support vector machine in high dimensional settings, DTI structural connectivity networks, text analysis of Supreme Court decisions.* -->
+<!-- to -->
+<!-- *My research has two components.* -->
+<!-- *Theory* -->
+<!-- - Dimensionality reduction for network valued random variables. -->
+<!-- - Temporally evolving preferential attachment models. -->
+<!-- - Support vector machine in high dimensional settings. -->
+<!-- *Application*  -->
+<!-- - DTI structural connectivity networks. -->
+<!-- - Text analysis of Supreme Court decisions. -->
+<!-- The depth of the hierarchy you use is dependent upon the medium. For a written document try not to use more than three levels (chapters, sections, and subsections). For an oral presentation two levels is better. -->
+</section>
+<section id="make-the-structure-easy-to-navigate-and-understand" class="level3">
+<h3 class="anchored" data-anchor-id="make-the-structure-easy-to-navigate-and-understand">Make the structure easy to navigate and understand</h3>
+<!-- The audience should be able to navigate easily around a document. Furthermore, the audience should know where they are at all times.  -->
+<p>It’s helpful for the audience to know where they are (e.g.&nbsp;what lecture notes are you reading?) and ideally be able to navigate easily around a document. Our notes have a floating table of contents. Textbooks provide a table of contents, number section headings, and provide page numbers at the bottom. Websites typically have a site map at the top. In oral presentations it can be helpful to show the outline at the beginning and periodically state where you are in the lecture.</p>
+<!-- ## Communicate at different levels -->
+<!-- A technical document often communicates to different types of audiences; the same document might be read by both executives, scientists and statisticians. The same reader might shift categories; the first time I read a paper I'm looking for the upshot/core ideas while the second time I read the paper I try to understand the technical details. Therefore, a document (paper, PowerPoint, etc) should communicate its message at multiple levels. -->
+<!-- Stating the message then the details is an example of communicating at different levels. Academic papers include details both in the body of the paper and the appendix.  -->
+</section>
+<section id="communicate-at-multiple-levels" class="level3">
+<h3 class="anchored" data-anchor-id="communicate-at-multiple-levels">Communicate at multiple levels</h3>
+<p>The report you write about your data analysis might have different target audiences. If you analyze the efficacy of a medical device, your report might target doctors, business executives, and statisticians. Different members of the target audience will be interested in different parts of your report. The executives might just want to know the binary yes/no the device works; the doctors might want to know which patients the device was most effective for; the statisticians might want to know the details of the analysis you performed.</p>
+<p>To satisfy all of these people simultaneously you have to write at multiple levels. For example, most scientific papers have a title, abstract, introduction, methods section, results section, and appendix. The executives might only want to read the title/abstract; the doctors might also want to read the results; the statisticians might be interested in details in the methods section and appendix.</p>
+</section>
+</section>
+<section id="visualizations" class="level2">
+<h2 class="anchored" data-anchor-id="visualizations">Visualizations</h2>
+<p>Visualizations are some of the most powerful tools for communicating in data science. For a given analysis the best plot depends on the context. We often make two versions of the same plot, a quick exploratory plot then a more careful communicatory plot. These two types of plots serve different purposes.</p>
+<p>To illustrate these two types of plots, let’s use a dataset from Capital Bikeshare.<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> Capital Bikeshare is a bike sharing system for Washington DC that makes their hourly rental data publicly available.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>bikes <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">'https://www.dropbox.com/s/f7wj0oxxckhvrn8/bikes_2011.csv?dl=1'</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>bikes <span class="sc">%&gt;%</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">select</span>(hr, cnt, workingday)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 8,645 × 3
+      hr   cnt workingday
+   &lt;dbl&gt; &lt;dbl&gt;      &lt;dbl&gt;
+ 1     0    16          0
+ 2     1    40          0
+ 3     2    32          0
+ 4     3    13          0
+ 5     4     1          0
+ 6     5     1          0
+ 7     6     2          0
+ 8     7     3          0
+ 9     8     8          0
+10     9    14          0
+# ℹ 8,635 more rows</code></pre>
+</div>
+</div>
+<section id="exploratory-plot-speed-and-details" class="level3">
+<h3 class="anchored" data-anchor-id="exploratory-plot-speed-and-details">Exploratory plot: speed and details</h3>
+<p>When we first analyze a data set we often rapidly make many exploratory plots. Exploratory plots emphasize details over message and quantity over quality.</p>
+<p>The target audience for an exploratory plot is the person making it and possibly close collaborators. It is created quickly (e.g.&nbsp;2 lines of code) and contains lots of information.</p>
+<p>Let’s take a look at the rental counts per hour over the course of the year for Capital Bikeshare (note working day = Mon-Fri vs.&nbsp;Weekend/Holiday).</p>
+<div class="cell" data-layout-align="center">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(bikes) <span class="sc">+</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x=</span>hr, <span class="at">y=</span>cnt, <span class="at">color=</span><span class="fu">factor</span>(workingday)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="notes_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This quick-and-dirty plot might be informative to an analyst familiar with this kind of data, but would be puzzling to someone else. Consider how much detail is present in this plot. Every observation in the data set is present in this plot - over 8,000 of them. With a careful eye, you can use the white grid lines to get a good sense of the precise x- and y-values of each observation. This is aided by the axes, which have many tick marks displaying the different values they can take.</p>
+<p>This detail might be helpful to the seasoned analyst but could be confusing to the average viewer. Would they know what “factor(workingday)” means? Would they be able to come away with a single clear message of what the data show? Probably not. For that, we need a communicatory plot.</p>
+</section>
+<section id="communicatory-plot-message-and-quality" class="level3">
+<h3 class="anchored" data-anchor-id="communicatory-plot-message-and-quality">Communicatory plot: message and quality</h3>
+<p>After concluding an analysis, the final presentation will likely have several figures in them whose purpose is to effectively communicate the findings to the intended audience. The main purpose of a communicatory plot is message, not details. Often creating a good communicatory visualization is about decluttering. Less is more! For example, watch <a href="http://www.storytellingwithdata.com/blog/2017/3/29/declutter-this-graph">this blog post</a> step through decluttering a poor visualization.</p>
+<p>The plot below is designed to communicate the findings to a general audience (e.g.&nbsp;business executives). This plot took longer to make (30 lines of code) and focuses on the message.</p>
+<div class="cell" data-layout-align="center">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># reduce to hourly data</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>by_hour <span class="ot">&lt;-</span> bikes <span class="sc">%&gt;%</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mutate</span>(<span class="at">workingday =</span> <span class="fu">ifelse</span>(workingday <span class="sc">==</span> <span class="dv">1</span>, <span class="st">'yes'</span>, <span class="st">'no'</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">group_by</span>(workingday, hr) <span class="sc">%&gt;%</span> </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarise</span>(<span class="at">cnt =</span> <span class="fu">median</span>(cnt))</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>morning_peak <span class="ot">&lt;-</span> <span class="fu">filter</span>(by_hour, hr <span class="sc">==</span> <span class="dv">8</span>, workingday<span class="sc">==</span><span class="st">'yes'</span>)<span class="sc">$</span>cnt</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>afternoon_peak <span class="ot">&lt;-</span> <span class="fu">filter</span>(by_hour, hr <span class="sc">==</span> <span class="dv">17</span>, workingday<span class="sc">==</span><span class="st">'yes'</span>)<span class="sc">$</span>cnt</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(by_hour) <span class="sc">+</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">x =</span> hr, <span class="at">y =</span> cnt, </span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>                <span class="at">color =</span> workingday, <span class="at">linetype =</span> workingday), <span class="at">linewidth =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.background =</span> <span class="fu">element_blank</span>(), <span class="co"># backgound/axis</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.line =</span> <span class="fu">element_line</span>(<span class="at">colour =</span> <span class="st">"black"</span>, <span class="at">size =</span> .<span class="dv">1</span>),</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.key =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"white"</span>)) <span class="sc">+</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_x_continuous</span>(<span class="at">breaks=</span><span class="fu">c</span>(<span class="dv">6</span>, <span class="dv">12</span>, <span class="dv">18</span>, <span class="dv">23</span>), <span class="co"># axis</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>                     <span class="at">limits=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">23</span>),</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>                     <span class="at">expand=</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">1</span>)) <span class="sc">+</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(<span class="at">breaks=</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">200</span>, <span class="dv">400</span>),</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>                     <span class="at">limits=</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">450</span>),</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>                     <span class="at">expand=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>)) <span class="sc">+</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">'Hour of the day'</span>,</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">'Rider Count (median)'</span>,</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">'Rental patterns differ between working vs. non-working days'</span>) <span class="sc">+</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="fu">guide_legend</span>(<span class="at">title =</span> <span class="st">"Working Day"</span>),</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>         <span class="at">shape =</span> <span class="fu">guide_legend</span>(<span class="at">title =</span> <span class="st">"Working Day"</span>),</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>         <span class="at">linetype =</span> <span class="fu">guide_legend</span>(<span class="at">title =</span> <span class="st">"Working Day"</span>)) <span class="sc">+</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="dv">12</span>, <span class="at">y =</span> <span class="dv">430</span>, <span class="at">label =</span> <span class="st">'rush hour'</span>)) <span class="sc">+</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="fl">10.3</span>, <span class="at">y =</span> <span class="dv">427</span>, <span class="at">xend =</span> <span class="fl">8.5</span>, <span class="at">yend =</span> morning_peak),</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>               <span class="at">linewidth =</span> .<span class="dv">1</span>,</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>               <span class="at">arrow =</span> <span class="fu">arrow</span>(<span class="at">length =</span> <span class="fu">unit</span>(<span class="fl">0.03</span>, <span class="st">'npc'</span>))) <span class="sc">+</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> <span class="fl">13.5</span>, <span class="at">y =</span> <span class="dv">427</span>, <span class="at">xend =</span> <span class="fl">16.5</span>, <span class="at">yend =</span> afternoon_peak),</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>               <span class="at">linewidth =</span> .<span class="dv">1</span>, <span class="at">arrow =</span> <span class="fu">arrow</span>(<span class="at">length=</span><span class="fu">unit</span>(<span class="fl">0.03</span>, <span class="st">'npc'</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="notes_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Notice the design decisions that were made to hone the message:</p>
+<ul>
+<li>Title states the message of the plot.</li>
+<li>Use median count per hour as a summary instead of showing every data point.</li>
+<li>Axes are labeled in clear english.</li>
+<li>No background grid and fewer axis ticks.
+<ul>
+<li>The precise numbers are not important for the message.</li>
+</ul></li>
+<li>Rush hour peaks are annotated for emphasis.</li>
+<li>Working data is coded in two ways:
+<ul>
+<li>Color</li>
+<li>Line type</li>
+</ul></li>
+</ul>
+<p>You can learn how to customize ggplot through some googling.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+</section>
+</section>
+<section id="programming" class="level2">
+<h2 class="anchored" data-anchor-id="programming">Programming</h2>
+<p>Writing code is an act of communication with two audiences: the computer and other programmers. Other programmers include a future you.</p>
+<section id="coding" class="level3">
+<h3 class="anchored" data-anchor-id="coding">Coding</h3>
+<p>It is important to write <em>readable</em> software meaning code that is straightforward for someone to understand. Readability in software is an engineering principle; the easier your code is to understand, the less likely there is to be a bug, the faster you will debug issues that do come up, and the easier it is to modify.</p>
+<p>There are a few techniques you can use to make your code more readable.</p>
+<ul>
+<li><p>Use <strong>informative names</strong> that tell you what a variable/function/file is. For example, <code>avg_loudness = mean(cat_meow_volumes)</code> is better than <code>a = mean(cmv)</code>.</p></li>
+<li><p>Follow a <strong>consistent and standard naming format</strong> – typically either <code>snake_case</code> or <code>CamelCase</code>.</p></li>
+<li><p>Use <strong>line breaks and indentation</strong>. For example, compare the following two snippets that do the same thing:</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stat20data)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(ppk)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>ppk <span class="sc">%&gt;%</span>  <span class="fu">drop_na</span>(Q10) <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">Q10 =</span> <span class="fu">factor</span>(Q10, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Very important"</span>, <span class="st">"Somewhat important"</span>, <span class="st">"Neither important nor unimportant"</span>, <span class="st">"Somewhat unimportant"</span>,  <span class="st">"Very unimportant"</span>))) <span class="sc">%&gt;%</span>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">y =</span> Q10)) <span class="sc">+</span> <span class="fu">geom_bar</span>()<span class="sc">+</span> <span class="fu">ylab</span>(<span class="st">"Importance rating"</span>) <span class="sc">+</span>  <span class="fu">ggtitle</span>(<span class="st">"Importance rating breakdown"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>ppk <span class="sc">%&gt;%</span> </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>(Q10) <span class="sc">%&gt;%</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Q10 =</span> <span class="fu">factor</span>(Q10, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"Very important"</span>,</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"Somewhat important"</span>,</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"Neither important nor unimportant"</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"Somewhat unimportant"</span>, </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>                                      <span class="st">"Very unimportant"</span>))) <span class="sc">%&gt;%</span> </span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">y =</span> Q10)) <span class="sc">+</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>()<span class="sc">+</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"Importance rating"</span>) <span class="sc">+</span> </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="st">"Importance rating breakdown"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li><strong>Comment your code</strong>. You can add comments to your code – lines of code that are read by humans but not the computer – with the <code>#</code> symbol.</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the average support for the People's Park Project by year before taking the survey</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># notice we have introduced a new function-- rename!</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>ppk <span class="sc">%&gt;%</span> </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">year =</span> Q1, <span class="at">support_before =</span> Q18) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(year) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">avg_support =</span> <span class="fu">mean</span>(support_before, <span class="at">na.rm =</span> T))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>More generally, follow a <strong>consistent coding style</strong>. The norms you use for naming your variables, where you add white space and indentation, how to structure your comments - those are all wrapped up in what’s called the “style” of your code. Most large organizations and companies that write and share code, will insist that their coders write code in the same style. Many of them follow what’s called the <a href="https://style.tidyverse.org/">Tidyverse style guide</a> for R code.</li>
+</ul>
+</section>
+<section id="project-organization" class="level3">
+<h3 class="anchored" data-anchor-id="project-organization">Project organization</h3>
+<p>Use hierarchy to organize complex projects. For example, organize your work into folders and sub-folders. Take a look at the <a href="https://github.com/stat20/course-materials">stat20 github repository</a>. The units are collected at the top of the directory (e.g.&nbsp;3-prediction/), within a unit the lectures are collected together (e.g.&nbsp;15-classification/), which then contain the notes, slides, etc.</p>
+<p>Files should be given descriptive names and ideally follow one of the standardized naming formats (e.g.&nbsp;<code>snake_case</code> or <code>CamelCase</code>).<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a></p>
+</section>
+<section id="asking-for-help" class="level3">
+<h3 class="anchored" data-anchor-id="asking-for-help">Asking for help</h3>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center" style="border:1px solid black">
+<figure class="figure">
+<p><img src="images/bad_question.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Bad question</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 66.7%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center" style="border:1px solid black">
+<figure class="figure">
+<p><img src="images/good_question.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Good question</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>We all get stuck coding and need to ask a friend/colleague/tutor for help. The way we ask for help matters. Asking questions in a more effective manner makes the question more likely to be answered, and answered faster. A good question is 1) <strong>complete</strong>, 2) <strong>minimal</strong>, and 3) <strong>reproducible.</strong><a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> In other words, all of the relevant information needed to understand the issue is provided and all irrelevant information is stripped away. For example, you should send a snippet of R code instead of an entire qmd document with the little bit of relevant code buried in the middle. Ideally you should include some example code that your colleague can run to reproduce the issue you’re having.</p>
+<p>Often the act of asking a good question will cause you to figure out the problem. By simply trying to explain what’s going on can cause you to see the issue. This called <em>rubber duck debugging</em><a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a> and can be an effective strategy to debug your code. Before bugging someone else with your error, first try picking up a rubber duck and explaining to problem to it.<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/duck.png" class="img-fluid figure-img" width="150"></p>
+</figure>
+</div>
+<!-- Duck from https://www.nytimes.com/2011/11/13/magazine/the-rubber-duck-knows-no-frontiers.html -->
+</section>
+</section>
+<section id="making-a-pitch-communicate-a-clear-vision-why-someone-should-invest-in-you" class="level2">
+<h2 class="anchored" data-anchor-id="making-a-pitch-communicate-a-clear-vision-why-someone-should-invest-in-you">Making a pitch? Communicate a clear vision why someone should invest in you</h2>
+<p>There are many times in life when you have to pitch someone on giving you resources to accomplish something; applying for a job or graduate school, convincing your boss to green-light a project, or asking investors for money for your start-up. To make a compelling pitch you want to communicate why your audience should care about what you are doing – in particular, why they should spend their resources on your idea instead of on someone else’s idea. Try using the <a href="https://www.darpa.mil/work-with-us/heilmeier-catechism">Heilmeier Catechism</a> for inspiration when creating a pitch.<a href="#fn16" class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a></p>
+<p>To pitch effectively you should think about what your audience wants to hear. If a department admits you to its PhD program, what great things will your research accomplish? If an investor funds you, how much money will you make them? It can be useful to lay out what you are doing and why it is important in <em>simple terms</em>. The audience you are pitching to often has limited bandwidth to understand details of your idea (they are busy, read many applications, may not be domain experts, etc). When you can only communicate a little bit of information, that information better be good! Simplifying your idea can be difficult<a href="#fn17" class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a> because you probably spend your time thinking about technical details instead of the big picture and you already understand the value of what you are doing.</p>
+<!-- Try using the [Heilmeier Catechism](https://arpa-h.gov/assets/files/Qs_behind_the_HQs.pdf) for inspiration when creating a pitch. These are suggestions[^heilmerier] for how to formulate a compelling pitch to solicit a significant amount of funding from DARPA, which is the US Defense Department's agency for funding very ambitious research projects. -->
+<!-- [^heilmerier]: https://www.darpa.mil/work-with-us/heilmeier-catechism -->
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>These notes discussed four principles of communication (audience, signal-to-noise, redundancy, and trade offs) and a number of strategies (revision, message, hierarchy, structure, and multiple levels) to communicate more effectively. We then looked at how these strategies apply to making visualizations and programming. The content in these notes are guidelines, not laws. These are good things to default to, but there can be good reason to break from these guidelines. For example, suspense is a useful rhetorical device to keep an audience engaged, which may warrant not stating the message upfront. Furthermore, what “most effective” means can be subjective!</p>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://www.principiae.be/book/">Trees, Maps and Theorems</a> by Jean-luc Doumont<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://shiny.rstudio.com/">https://shiny.rstudio.com/</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://www.principiae.be/book/">Trees, Maps and Theorems</a> by Jean-luc Doumont<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><a href="https://en.wikipedia.org/wiki/Information_theory">https://en.wikipedia.org/wiki/Information_theory</a><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Businesses are not customer-minded (e.g.&nbsp;“the customer is always right”) out of the goodness of their hearts; adapting to their audience will earn them more money.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><a href="https://www.principiae.be/book/">Trees, Maps and Theorems</a> by Jean-luc Doumont<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Professor Calum Carmichael<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><a href="https://www.storytellingwithdata.com/blog/2017/3/22/so-what">https://www.storytellingwithdata.com/blog/2017/3/22/so-what</a>. This post is worth reading in full.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>E.M. Forster<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>See <a href="https://capitalbikeshare.com/how-it-works">https://capitalbikeshare.com/how-it-works</a>. They make their data publicly available at <a href="https://ride.capitalbikeshare.com/system-data">https://ride.capitalbikeshare.com/system-data</a>.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p><a href="https://idc9.github.io/stor390/notes/custom_viz/custom_viz.html">These notes</a> give some example code for customizing ggplot.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>It’s best to avoid putting spaces in file name because spaces in file names can mess up code that works with file names.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Here are three blog posts that go into more detail: <a href="https://stackoverflow.com/help/how-to-ask">How do I ask a good question?</a>, <a href="http://adv-r.had.co.nz/Reproducibility.html">How to write a reproducible example</a>, and <a href="https://stackoverflow.com/help/mcve">How to create a Minimal, Complete, and Verifiable example</a>. The <a href="https://reprex.tidyverse.org/">reprex</a> package is very useful for writing good questions in R.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging">https://en.wikipedia.org/wiki/Rubber_duck_debugging</a><a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>I tend to draft an email asking my question to a busy colleague whose respect is important to me, which forces me to really think through the issue.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>These are suggestions for how to formulate a compelling pitch to solicit a significant amount of funding from DARPA, which is the US Defense Department’s agency for funding very ambitious research projects. <a href="https://arpa-h.gov/assets/files/Qs_behind_the_HQs.pdf">This document</a> elaborates more on these questions in the context of pitching ambitious health projects.<a href="#fnref16" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>There is a famous Mark Twain quote “I didn’t have time to write a short letter, so I wrote a long one instead.” It’s hard to be succinct!<a href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
